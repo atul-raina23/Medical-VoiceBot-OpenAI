@@ -1,0 +1,160 @@
+-i https://pypi.org/simple
+
+# Async file operations
+aiofiles==23.2.1; python_version >= '3.7'
+
+# Type annotations
+annotated-types==0.7.0; python_version >= '3.8'
+
+# Asynchronous I/O
+anyio==4.8.0; python_version >= '3.9'
+
+# SSL certificates
+certifi==2024.12.14; python_version >= '3.6'
+
+# Encoding support
+charset-normalizer==3.4.1; python_version >= '3.7'
+
+# CLI utilities
+click==8.1.8; python_version >= '3.7'
+
+# System information
+distro==1.9.0; python_version >= '3.6'
+
+# Text-to-speech
+elevenlabs==1.50.3; python_version >= '3.8' and python_version < '4.0'
+
+# Web framework
+fastapi==0.115.6; python_version >= '3.8'
+
+# Audio processing
+ffmpy==0.5.0; python_version >= '3.8' and python_version < '4.0'
+
+# File handling
+filelock==3.16.1; python_version >= '3.8'
+
+# File system utilities
+fsspec==2024.12.0; python_version >= '3.8'
+
+# Web UI
+gradio==5.12.0; python_version >= '3.10'
+gradio-client==1.5.4; python_version >= '3.10'
+
+# AI API
+groq==0.15.0; python_version >= '3.8'
+
+# Text-to-speech
+gtts==2.5.4; python_version >= '3.7'
+
+# HTTP libraries
+h11==0.14.0; python_version >= '3.7'
+httpcore==1.0.7; python_version >= '3.8'
+httpx==0.28.1; python_version >= '3.8'
+
+# Hugging Face API
+huggingface-hub==0.27.1; python_full_version >= '3.8.0'
+
+# Domain name handling
+idna==3.10; python_version >= '3.6'
+
+# Template engine
+jinja2==3.1.5; python_version >= '3.7'
+
+# Markdown support
+markdown-it-py==3.0.0; python_version >= '3.8'
+markupsafe==2.1.5; python_version >= '3.7'
+mdurl==0.1.2; python_version >= '3.7'
+
+# Scientific computing
+numpy==2.2.1; python_version >= '3.10'
+
+# JSON parsing
+orjson==3.10.14; python_version >= '3.8'
+
+# Dependency management
+packaging==24.2; python_version >= '3.8'
+
+# Data processing
+pandas==2.2.3; python_version >= '3.9'
+
+# Image processing
+pillow==11.1.0; python_version >= '3.9'
+
+# Audio recording
+pyaudio==0.2.14
+
+# Data validation
+pydantic==2.10.5; python_version >= '3.8'
+pydantic-core==2.27.2; python_version >= '3.8'
+
+# Audio processing
+pydub==0.25.1
+
+# Code highlighting
+pygments==2.19.1; python_version >= '3.8'
+
+# Date utilities
+python-dateutil==2.9.0.post0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+
+# Multipart form handling
+python-multipart==0.0.20; python_version >= '3.8'
+
+# Time zones
+pytz==2024.2
+
+# YAML support
+pyyaml==6.0.2; python_version >= '3.8'
+
+# HTTP requests
+requests==2.32.3; python_version >= '3.8'
+
+# Terminal formatting
+rich==13.9.4; python_full_version >= '3.8.0'
+
+# Linter
+ruff==0.9.1; sys_platform != 'emscripten'
+
+# Secure HTTP client
+safehttpx==0.1.6; python_version >= '3.10'
+
+# Semantic versioning
+semantic-version==2.10.0; python_version >= '2.7'
+
+# Shell detection
+shellingham==1.5.4; python_version >= '3.7'
+
+# Compatibility layer
+six==1.17.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+
+# Async library
+sniffio==1.3.1; python_version >= '3.7'
+
+# Speech recognition
+speechrecognition==3.13.0; python_version >= '3.9'
+
+# ASGI toolkit
+starlette==0.41.3; sys_platform != 'emscripten'
+
+# TOML parser
+tomlkit==0.13.2; python_version >= '3.8'
+
+# Progress bar
+tqdm==4.67.1; python_version >= '3.7'
+
+# CLI tools
+typer==0.15.1; sys_platform != 'emscripten'
+
+# Type hints
+typing-extensions==4.12.2; python_version >= '3.8'
+
+# Time zone data
+tzdata==2024.2; python_version >= '2'
+
+# HTTP library
+urllib3==2.3.0; python_version >= '3.9'
+
+# ASGI server
+uvicorn==0.34.0; sys_platform != 'emscripten'
+
+# WebSockets support
+websockets==14.1; python_version >= '3.9'
